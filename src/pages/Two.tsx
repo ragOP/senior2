@@ -5,7 +5,7 @@ const Two = () => {
     <div>
      <iframe
         title="External Content"
-        src="https://b2-qmk2-e05tottbv-ragop1.vercel.app/"
+        src="https://b2-qmk2-ragop1.vercel.app/"
         style={{ width: '100%', height: '100vh', border: 'none' }}
       />
     </div>

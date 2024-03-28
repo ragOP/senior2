@@ -23,6 +23,7 @@ import Client from './pages/Client'
 import Ip from './pages/ip'
 import Newx from './pages/Newx'
 import Party from './pages/Party';
+import Two from './pages/Two';
 
 function App() {
  console.log('s');
@@ -32,7 +33,7 @@ function App() {
       <div className="App">
         <Routes>
              <Route path = "/engmed1" element = {<S />} />
-             <Route path = "/sec-q2med" element = {<S />} />
+             <Route path = "/sec-q2med" element = {<Two />} />
           <Route path = "/*" element = {<NotFound />} />
         </Routes>
       </div>
