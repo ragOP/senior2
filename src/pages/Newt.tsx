@@ -43,16 +43,18 @@ export default function Fifth_SP() {
   
   shuffleArray(messages);
   
-  const notify = (message:any) => {
-    // Dismiss all existing toasts
-    toast.dismiss();
-    let boldedMessage = message;
-  
-    // Make the word "Allowance" bold in all lines
-    boldedMessage = boldedMessage.replace(
-      /\$144/Month Allowance Card/g,
-      '<strong class="green-bold">$144/Month Allowance Card</strong>'
-    );
+const notify = (message:any) => {
+  // Dismiss all existing toasts
+  toast.dismiss();
+  let boldedMessage = message;
+
+  // Make the word "Allowance" bold in all lines
+  boldedMessage = boldedMessage.replace(
+    /\$144\/Month Allowance Card/g,
+    '<strong class="green-bold">$144/Month Allowance Card</strong>'
+  );
+};
+
   
     // Make specific dollar amounts bold only in specific lines
     const specialAmounts = ["$16,800", "$16,800", "$16,800", "$16,800"];
