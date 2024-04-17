@@ -26,11 +26,11 @@ export default function Fifth_SP() {
   });
   
   const messages = [
-    "Emily A. Rodriguez from Miami, FL just qualified for a $144/Month Allowance Card.",
-    "Michael D. Johnson from Dallas, TX just qualified for a $144/Month Allowance Card.",
-    "Sophia L. Thompson from Los Angeles, CA just qualified for a $144/Month Allowance Card.",
-    "Ethan M. Baker from Chicago, IL just qualified for a $144/Month Allowance Card.",
-    "Ava K. Campbell from Seattle, WA just qualified for a $144/Month Allowance Card."
+    "Emily A. Rodriguez from Miami, FL just qualified for a $1700 Allowance Card.",
+    "Michael D. Johnson from Dallas, TX just qualified for a $1700 Allowance Card.",
+    "Sophia L. Thompson from Los Angeles, CA just qualified for a $1700 Allowance Card.",
+    "Ethan M. Baker from Chicago, IL just qualified for a $1700 Allowance Card.",
+    "Ava K. Campbell from Seattle, WA just qualified for a $1700 Allowance Card."
   ];
   
   // Function to shuffle array in place
@@ -50,8 +50,8 @@ export default function Fifth_SP() {
 
     // Make the word "Allowance" bold in all lines
     boldedMessage = boldedMessage.replace(
-      /\$144\/Month Allowance Card/g,
-      '<strong class="green-bold">$144/Month Allowance Card</strong>'
+      /\$1700\/Allowance Card/g,
+      '<strong class="green-bold">$1700 Allowance Card</strong>'
     );
   
     // Make specific dollar amounts bold only in specific lines
@@ -376,17 +376,17 @@ export default function Fifth_SP() {
             <div className="main-descrition-5-5">
               <div className="main-des-title-6-7" style={{marginTop:'-0.5px'}}>
                 <b>
-         Unlock Your $144/Month Allowance Card Under This New Medicare Program. Here’s How!
+         Unlock Your $1700  Allowance Card Under This New Medicare Program. Here’s How!
                 </b>
               </div>
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
               <img className="topic-img-middle-z" src={Head_bg} alt="head" />
               <div  style={{marginTop:'27px'}}className="main-des-5">
-         Americans over 65 years old can claim the 2024 Social Security Allowance Program that gives them $144 every single month. Americans can use the funds to fully cover their Food, Medicines, etc. at Walmart and thousands of other participating stores!
+         Americans over 65 years old can claim the 2024 Social Security Allowance Program that gives them $1700 Allowance Card. Americans can use the funds to fully cover their Food, Medicines, etc. at Walmart and thousands of other participating stores!
 
               </div>
               <div className="main-des-5"  style={{marginTop:'-5px'}}>
-    If you have not yet claimed your monthly allowance then answer the questions below and once approved <b>you will have your $144/Month Allowance Card mailed to you within a few days ready for use!</b>
+    If you have not yet claimed your monthly allowance then answer the questions below and once approved <b>you will have your $1700  Allowance Card mailed to you within a few days ready for use!</b>
               </div>
               {/* <div className='main-des-5' style = {{marginTop:"1rem"}}><b>Simplemente responda las siguientes preguntas:</b></div> */}
             </div>
@@ -413,7 +413,7 @@ export default function Fifth_SP() {
         <div className="checking">
           <div className="congrats">Congratulation, You Qualify!</div>
           <div className="top-description-5">
-            Make A <b>Quick Call</b> To Claim Your $144/Month Allowance Card !
+            Make A <b>Quick Call</b> To Claim Your $1700  Allowance Card !
           </div>
           <div className="spots-count">Spots remaining: 4</div>
           <div className="tap-direction">👇 TAP BELOW TO CALL 👇</div>
