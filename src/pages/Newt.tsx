@@ -382,7 +382,7 @@ export default function Fifth_SP() {
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
               <img className="topic-img-middle-z" src={Head_bg} alt="head" />
               <div  style={{marginTop:'27px'}}className="main-des-5">
-         Americans over 65 years old can claim the 2024 Social Security Allowance Program that gives them $144/Month. Americans can use the funds to fully cover their Food, Medicines, etc. at Walmart and thousands of other participating stores!
+         Americans over 65 years old can claim the 2024 Social Security Allowance Program that gives them $144 every single month. Americans can use the funds to fully cover their Food, Medicines, etc. at Walmart and thousands of other participating stores!
 
               </div>
               <div className="main-des-5"  style={{marginTop:'-5px'}}>
