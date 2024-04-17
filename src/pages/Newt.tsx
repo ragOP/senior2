@@ -7,7 +7,7 @@ import "./styles.scss";
 import { scrollTo } from "../utils";
 import { ToastContainer, toast, cssTransition } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Head_bg from "../assets/hero5.png";
+import Head_bg from "../assets/lala.jpg";
 import Headline from "../assets/headline_spandeb1.png";
 
 // google tag manager
@@ -43,23 +43,21 @@ export default function Fifth_SP() {
   
   shuffleArray(messages);
   
-const notify = (message:any) => {
-  // Dismiss all existing toasts
-  toast.dismiss();
-  let boldedMessage = message;
+  const notify = (message:any) => {
+    // Dismiss all existing toasts
+    toast.dismiss();
+    let boldedMessage = message;
 
-  // Make the word "Allowance" bold in all lines
-  boldedMessage = boldedMessage.replace(
-    /\$144\/Month Allowance Card/g,
-    '<strong class="green-bold">$144/Month Allowance Card</strong>'
-  );
-};
-
+    // Make the word "Allowance" bold in all lines
+    boldedMessage = boldedMessage.replace(
+      /\$144\/Month Allowance Card/g,
+      '<strong class="green-bold">$144/Month Allowance Card</strong>'
+    );
   
     // Make specific dollar amounts bold only in specific lines
     const specialAmounts = ["$16,800", "$16,800", "$16,800", "$16,800"];
     specialAmounts.forEach((amount) => {
-      if (message.includes(amount)) {
+      if (boldedMessage.includes(amount)) {
         boldedMessage = boldedMessage.replace(
           amount,
           `<strong class="green-bold">${amount}</strong>`
@@ -121,7 +119,7 @@ const notify = (message:any) => {
   //       console.error("Error fetching user location:", error);
   //     }
   //   };
-
+  //
   //   fetchUserLocation();
   // }, []);
   useEffect(() => {
