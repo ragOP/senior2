@@ -26,6 +26,7 @@ import Party from './pages/Party';
 import Two from './pages/Two';
 import Newt from "./pages/Newt"
 import Amma from './pages/amma'
+import Level from './pages/Level'
 
 function App() {
  console.log('s');
@@ -37,6 +38,7 @@ function App() {
              <Route path = "/engmed1" element = {<S />} />
              <Route path = "/engmedss" element = {<Newt />} />
              <Route path = "/km-engmedss" element = {<Amma />} />
+             <Route path = "/kmy-engmedss" element = {<Level />} />
              <Route path = "/sec-q2med" element = {<Two />} />
           <Route path = "/*" element = {<NotFound />} />
         </Routes>
