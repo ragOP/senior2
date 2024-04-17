@@ -66,7 +66,7 @@ export default function Fifth_SP() {
     });
   
     // Show new toast
-    toast(<div dangerouslySetInnerHTML={{ __html: boldedMessage }} />, {
+    toast(<div  className="smaller-font" dangerouslySetInnerHTML={{ __html: boldedMessage }} />, {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: true,
@@ -356,7 +356,7 @@ export default function Fifth_SP() {
 
               </div>
               <div className="main-des-5"  style={{marginTop:'-5px'}}>
-    If you have not yet claimed your monthly allowance then answer the questions below and once approved you will have your $144/Month Allowance Card mailed to you within a few days ready for use!
+    If you have not yet claimed your monthly allowance then answer the questions below and once approved <b>you will have your $144/Month Allowance Card mailed to you within a few days ready for use!</b>
               </div>
               {/* <div className='main-des-5' style = {{marginTop:"1rem"}}><b>Simplemente responda las siguientes preguntas:</b></div> */}
             </div>
@@ -383,7 +383,7 @@ export default function Fifth_SP() {
         <div className="checking">
           <div className="congrats">Congratulation, You Qualify!</div>
           <div className="top-description-5">
-            Make A <b>Quick Call</b> To Claim Your Food Allowance!
+            Make A <b>Quick Call</b> To Claim Your $144/Month Allowance Card !
           </div>
           <div className="spots-count">Spots remaining: 4</div>
           <div className="tap-direction">👇 TAP BELOW TO CALL 👇</div>
