@@ -26,11 +26,11 @@ export default function Fifth_SP() {
   });
   
   const messages = [
-    "Emily A. Rodriguez from Miami, FL just qualified for a $3,300 Food Allowance.",
-    "Michael D. Johnson from Dallas, TX just qualified for a $3,300 Food Allowance.",
-    "Sophia L. Thompson from Los Angeles, CA just qualified for a $3,300 Food Allowance.",
-    "Ethan M. Baker from Chicago, IL just qualified for a $3,300 Food Allowance.",
-    "Ava K. Campbell from Seattle, WA just qualified for a $3,300 Food Allowance."
+    "Emily A. Rodriguez from Miami, FL just qualified for a $144/Month Allowance Card.",
+    "Michael D. Johnson from Dallas, TX just qualified for a $144/Month Allowance Card.",
+    "Sophia L. Thompson from Los Angeles, CA just qualified for a $144/Month Allowance Card.",
+    "Ethan M. Baker from Chicago, IL just qualified for a $144/Month Allowance Card.",
+    "Ava K. Campbell from Seattle, WA just qualified for a $144/Month Allowance Card."
   ];
   
   // Function to shuffle array in place
@@ -50,8 +50,8 @@ export default function Fifth_SP() {
   
     // Make the word "Allowance" bold in all lines
     boldedMessage = boldedMessage.replace(
-      /\$3,300 Food Allowance/g,
-      '<strong class="green-bold">$3,300 Food Allowance</strong>'
+      /\$144/Month Allowance Card/g,
+      '<strong class="green-bold">$144/Month Allowance Card</strong>'
     );
   
     // Make specific dollar amounts bold only in specific lines
@@ -346,17 +346,17 @@ export default function Fifth_SP() {
             <div className="main-descrition-5-5">
               <div className="main-des-title-6-7">
                 <b>
-                Americans Over 65 Can Now Qualify For The $3300 Food Allowance Card in 2024!
+         Unlock Your $144/Month Allowance Card Under This New Medicare Program. Here’s How!
                 </b>
               </div>
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
               <img className="topic-img-middle-z" src={Head_bg} alt="head" />
               <div  style={{marginTop:'14px'}}className="main-des-5">
-              Americans over 65 years old can claim the 2024 Food Allowance Card that gives them up to $3300. Americans can use the funds to fully cover their Food, Medicines, etc. at Walmart and thousands of other participating stores!
+         Americans over 65 years old can claim the 2024 Social Security Allowance Program that gives them $144/Month. Americans can use the funds to fully cover their Food, Medicines, etc. at Walmart and thousands of other participating stores!
 
               </div>
               <div className="main-des-5"  style={{marginTop:'-5px'}}>
-              If you have not yet claimed your monthly allowance then answer the questions below and once approved <b>you will have your $3,300 Food Allowance mailed to you within a few days ready for use!</b>
+    If you have not yet claimed your monthly allowance then answer the questions below and once approved you will have your $144/Month Allowance Card mailed to you within a few days ready for use!
               </div>
               {/* <div className='main-des-5' style = {{marginTop:"1rem"}}><b>Simplemente responda las siguientes preguntas:</b></div> */}
             </div>
