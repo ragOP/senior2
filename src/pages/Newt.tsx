@@ -76,7 +76,6 @@ export default function Fifth_SP() {
       closeButton: false,
     });
   };
-  
   useEffect(() => {
     const delayedEffect = setTimeout(() => {
       // Create a function to handle the logic
@@ -88,8 +87,8 @@ export default function Fifth_SP() {
         return randomTime;
       };
   
-      // Show the first toast
-      let nextTime = showRandomToast();
+      // Show the first toast after a delay of 25 seconds (25000 milliseconds)
+      let nextTime = 31000;
   
       // Set up a recurring timer
       const timer = setInterval(() => {
@@ -100,13 +99,44 @@ export default function Fifth_SP() {
       return () => {
         clearInterval(timer);
       };
-    }, 6000); // 6-second delay before the useEffect code runs
+    }, 31000); // 25-second delay before the useEffect code runs
   
     // Cleanup for the setTimeout
     return () => {
       clearTimeout(delayedEffect);
     };
   }, []);
+  
+  // useEffect(() => {
+  //   const delayedEffect = setTimeout(() => {
+  //     // Create a function to handle the logic
+  //     const showRandomToast = () => {
+  //       const randomTime = 6000;
+  //       const randomMessage =
+  //         messages[Math.floor(Math.random() * messages.length)];
+  //       notify(randomMessage);
+  //       return randomTime;
+  //     };
+  
+  //     // Show the first toast
+  //     let nextTime = showRandomToast();
+  
+  //     // Set up a recurring timer
+  //     const timer = setInterval(() => {
+  //       nextTime = showRandomToast();
+  //     }, nextTime);
+  
+  //     // Cleanup
+  //     return () => {
+  //       clearInterval(timer);
+  //     };
+  //   }, 6000); // 6-second delay before the useEffect code runs
+  
+  //   // Cleanup for the setTimeout
+  //   return () => {
+  //     clearTimeout(delayedEffect);
+  //   };
+  // }, []);
   
   // const [zipCode, setZipCode] = useState("");
   // useEffect(() => {
