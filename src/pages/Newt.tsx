@@ -351,7 +351,7 @@ export default function Fifth_SP() {
               </div>
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
               <img className="topic-img-middle-z" src={Head_bg} alt="head" />
-              <div  style={{marginTop:'17px'}}className="main-des-5">
+              <div  style={{marginTop:'27px'}}className="main-des-5">
          Americans over 65 years old can claim the 2024 Social Security Allowance Program that gives them $144/Month. Americans can use the funds to fully cover their Food, Medicines, etc. at Walmart and thousands of other participating stores!
 
               </div>
@@ -360,7 +360,7 @@ export default function Fifth_SP() {
               </div>
               {/* <div className='main-des-5' style = {{marginTop:"1rem"}}><b>Simplemente responda las siguientes preguntas:</b></div> */}
             </div>
-            <div style={{marginTop:'-1px'}} className="survey">
+            <div style={{marginTop:'32px'}} className="survey">
               <div className="quiz-5" id="btn">
                 {quiz}
               </div>
