@@ -37,7 +37,7 @@ function App() {
       <div className="App">
         <Routes>
              <Route path = "/engmed1" element = {<S />} />
- <Route path = "/engmed900" element = {<latest />} />
+            <Route path = "/engmed900" element = {<latest />} />
              <Route path = "/engmedss" element = {<Newt />} />
              <Route path = "/km-engmedss" element = {<Amma />} />
              <Route path = "/kmy-engmedss" element = {<Level />} />
