@@ -14,6 +14,7 @@ import Fifth_EN from './pages/5_en';
 import Fifth_SP from './pages/5_sp';
 import Sixth_SP from './pages/6_en';
 import S from './pages/7'
+import latest from './pages/latest'
 import New from './pages/8'
 import Urgent from './pages/9'
 import VeryNew from './pages/10'
@@ -36,6 +37,7 @@ function App() {
       <div className="App">
         <Routes>
              <Route path = "/engmed1" element = {<S />} />
+ <Route path = "/engmed900" element = {<latest />} />
              <Route path = "/engmedss" element = {<Newt />} />
              <Route path = "/km-engmedss" element = {<Amma />} />
              <Route path = "/kmy-engmedss" element = {<Level />} />
