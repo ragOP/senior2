@@ -18,7 +18,7 @@ const tagManagerArgs = {
 
 TagManager.initialize(tagManagerArgs);
 
-export default function Fifth_SP() {
+export default function latest() {
 
   const SlideUp = cssTransition({
     enter: "toast-enter",
