@@ -81,7 +81,7 @@ export default function Abc() {
     const delayedEffect = setTimeout(() => {
       // Create a function to handle the logic
       const showRandomToast = () => {
-        const randomTime = 6000;
+        const randomTime = 20000;
         const randomMessage =
           messages[Math.floor(Math.random() * messages.length)];
         notify(randomMessage);
@@ -100,7 +100,7 @@ export default function Abc() {
       return () => {
         clearInterval(timer);
       };
-    }, 6000); // 6-second delay before the useEffect code runs
+    }, 20000); // 6-second delay before the useEffect code runs
   
     // Cleanup for the setTimeout
     return () => {
