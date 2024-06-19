@@ -26,11 +26,11 @@ export default function Abc() {
   });
   
   const messages = [
-    "Emily A. Rodriguez from Miami, FL just qualified for a $3,3300 Food Allowance.",
-    "Michael D. Johnson from Dallas, TX just qualified for a $3,3300 Food Allowance.",
-    "Sophia L. Thompson from Los Angeles, CA just qualified for a $3,3300 Food Allowance.",
-    "Ethan M. Baker from Chicago, IL just qualified for a $3,3300 Food Allowance.",
-    "Ava K. Campbell from Seattle, WA just qualified for a $3,3300 Food Allowance."
+    "Emily A. Rodriguez from Miami, FL just qualified for a $3,1100 Food Allowance.",
+    "Michael D. Johnson from Dallas, TX just qualified for a $3,1100 Food Allowance.",
+    "Sophia L. Thompson from Los Angeles, CA just qualified for a $3,1100 Food Allowance.",
+    "Ethan M. Baker from Chicago, IL just qualified for a $3,1100 Food Allowance.",
+    "Ava K. Campbell from Seattle, WA just qualified for a $3,1100 Food Allowance."
   ];
   
   // Function to shuffle array in place
@@ -50,8 +50,8 @@ export default function Abc() {
   
     // Make the word "Allowance" bold in all lines
     boldedMessage = boldedMessage.replace(
-      /\$3,3300 Food Allowance/g,
-      '<strong class="green-bold">$3300 Food Allowance</strong>'
+      /\$3,1100 Food Allowance/g,
+      '<strong class="green-bold">$1100 Food Allowance</strong>'
     );
   
     // Make specific dollar amounts bold only in specific lines
@@ -346,7 +346,7 @@ export default function Abc() {
             <div className="main-descrition-5-5">
               <div className="main-des-title-6-7">
                 <b>
-                Americans Over 65 Can Now Qualify For The $3300 Food Allowance Card in 2024!
+                Americans Over 65 Can Now Qualify For The $1100 Food Allowance Card in 2024!
                 </b>
               </div>
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
@@ -356,7 +356,7 @@ export default function Abc() {
 
               </div>
               <div className="main-des-5"  style={{marginTop:'-5px'}}>
-              If you have not yet claimed your monthly allowance then answer the questions below and once approved <b>you will have your $3300 Food Allowance mailed to you within a few days ready for use!</b>
+              If you have not yet claimed your monthly allowance then answer the questions below and once approved <b>you will have your $1100 Food Allowance mailed to you within a few days ready for use!</b>
               </div>
               {/* <div className='main-des-5' style = {{marginTop:"1rem"}}><b>Simplemente responda las siguientes preguntas:</b></div> */}
             </div>
