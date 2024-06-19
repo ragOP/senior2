@@ -30,6 +30,7 @@ import Amma from './pages/amma'
 import Level from './pages/Level'
 import Abc from './pages/Abc';
 import Wed from './pages/Wed';
+import Nine from './pages/Nine';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
              <Route path = "/engmed1" element = {<S />} />
              <Route path = "/engmed901" element = {<Abc />} />
 <Route path = "/engmed1100" element = {<Wed />} />
+<Route path = "/engmed900" element = {<Nine />} />
           
              <Route path = "/engmedss" element = {<Newt />} />
              <Route path = "/km-engmedss" element = {<Amma />} />
