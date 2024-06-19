@@ -29,6 +29,7 @@ import Newt from "./pages/Newt"
 import Amma from './pages/amma'
 import Level from './pages/Level'
 import Abc from './pages/Abc';
+import Wed from './pages/Wed';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Routes>
              <Route path = "/engmed1" element = {<S />} />
              <Route path = "/engmed901" element = {<Abc />} />
+<Route path = "/engmed1100" element = {<Wed />} />
           
              <Route path = "/engmedss" element = {<Newt />} />
              <Route path = "/km-engmedss" element = {<Amma />} />
