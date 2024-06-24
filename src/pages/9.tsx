@@ -6,7 +6,7 @@ import "./styles.scss";
 
 import { scrollTo } from "../utils";
 
-import Head_bgs from "../assets/hero11.jpg";
+import Head_bgs from "../assets/ansari.png";
 
 import Headline from "../assets/headline_spandeb1.png";
 
